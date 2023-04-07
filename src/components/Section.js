@@ -1,0 +1,42 @@
+const eventData = [
+  {
+    id: 1,
+    title: "Beach Volleyball Tournament",
+    clubName: "Beach Sports Club",
+    date: "Sat, 15 Aug 2023",
+    levels: "Amateur",
+    image: "https://source.unsplash.com/random/400x400?beachvolleyball",
+  },
+  {
+    id: 2,
+    title: "Charity Run for Cancer",
+    clubName: "Hope Foundation",
+    date: "Sun, 06 Nov 2023",
+    levels: "Professional",
+    image: "https://source.unsplash.com/random/400x400?run",
+  },
+  {
+    id: 3,
+    title: "Yoga in the Park",
+    clubName: "Yoga Community",
+    date: "Sat, 02 Jul 2023",
+    levels: "Beginner",
+    image: "https://source.unsplash.com/random/400x400?yoga",
+  },
+  {
+    id: 4,
+    title: "Basketball Weekend Camp",
+    clubName: "Basketball Association",
+    date: "Fri, 12 Aug 2023",
+    levels: "Intermediate",
+    image: "https://source.unsplash.com/random/400x400?basketball",
+  },
+  {
+    id: 5,
+    title: "Golf Charity Tournament",
+    clubName: "Golf Club",
+    date: "Sat, 21 Oct 2023",
+    levels: "Amateur",
+    image: "https://source.unsplash.com/random",
+  },
+];

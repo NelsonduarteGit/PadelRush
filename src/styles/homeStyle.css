@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+/* Styling for arrows */
+.slick-prev,
+.slick-next {
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+/* Styling for dots */
+.slick-dots {
+  z-index: 1;
+  bottom: 10px;
+  margin: 0;
+  display: flex !important;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.slick-dots li button:before {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+}
+
+/* default style for desktop */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* media query for mobile */
+@media only screen and (max-width: 600px) {
+  .filter-bar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filter-bar button {
+    margin-top: 1rem;
+  }
+
+  .MuiDialog-paper {
+    width: 90%;
+    max-width: 90%;
+  }
+}
+
+header {
+  border-bottom: 1.5px solid red;
+  max-width: 90vw;
+  display: flex;
+  margin: 0 auto;
+}
